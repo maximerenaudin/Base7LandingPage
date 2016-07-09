@@ -1,0 +1,86 @@
+/*
+Syntax error: Undefined variable: "$font-color".
+        on line 39 of _main.scss
+
+34:     margin: 0;
+35:     padding: 0;
+36:     width: 100%;
+37:     font-weight: normal;
+38:     font-style: normal;
+39:     color: $font-color;
+40:   }
+41:   .container{
+42:     width: 94%;
+43:     max-width: 1400px;
+44:   }
+
+Backtrace:
+_main.scss:39
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `map'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:479:in `visit_media'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/tree/root_node.rb:20:in `render'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/engine.rb:274:in `render'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:414:in `update_stylesheet'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `each'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:221:in `watch'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/plugin.rb:108:in `method_missing'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/exec.rb:509:in `watch_or_update'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/exec.rb:346:in `process_result'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/exec.rb:43:in `parse'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/lib/sass/exec.rb:22:in `parse!'
+/Users/maxime/.rvm/gems/ruby-2.1.2/gems/sass-3.3.7/bin/sass:13:in `<top (required)>'
+/Users/maxime/.rvm/gems/ruby-2.1.2/bin/sass:23:in `load'
+/Users/maxime/.rvm/gems/ruby-2.1.2/bin/sass:23:in `<main>'
+/Users/maxime/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/maxime/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$font-color\".\A         on line 39 of _main.scss\A \A 34:     margin: 0;\A 35:     padding: 0;\A 36:     width: 100%;\A 37:     font-weight: normal;\A 38:     font-style: normal;\A 39:     color: $font-color;\A 40:   }\A 41:   .container{\A 42:     width: 94%;\A 43:     max-width: 1400px;\A 44:   }"; }

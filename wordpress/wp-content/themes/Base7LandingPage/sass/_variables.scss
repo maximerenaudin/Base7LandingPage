@@ -1,0 +1,41 @@
+// Variables
+
+$font-family-main:"DroidSans", sans-serif;
+$font-family-main-bold:"DroidSans Bold", sans-serif;
+$font-secondary: "DroidSans", sans-serif;
+
+$font-color: #333;
+$font-color-primary: #333;
+$bgr-primary:#fff;
+$bgr-primary-darker:#aaa;
+$bgr-secondary:#fff;
+$color-important3:#D92B4C;
+
+$bgr-btn-cancel:#d2d3de;
+$bgr-btn-browse:#c2c3cd;
+
+$white:#fff;
+$transparent-white:rgba($white,0.9);
+$transparent-white-70:rgba($white,0.7);
+$transparent-white-40:rgba($white,0.4);
+$transparent:transparent;
+
+$black: #000;
+$gray-dark: #333 !default;
+$gray: #555;
+$gray-light: #808080;
+$gray-lighter: #eee;
+$gray-lightest: #f7f7f7;
+$input-bgr:#d5d6e0;
+$input-bgr-err:#e1d0d9;
+
+$font-size-content:12px;
+$font-size: 12px;
+$h1-font-size: 24px;
+$h2-font-size: 22px;
+$h3-font-size: 16px;
+$h4-font-size: 14px;
+$h5-font-size: 13px;
+$nav-font-size: 12px;
+
+$line-height: $font-size * 1.5;
